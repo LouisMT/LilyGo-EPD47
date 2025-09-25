@@ -45,5 +45,11 @@
   "examples": ["examples/*/*.ino"],
   "frameworks": ["arduino"],
   "platforms": "esp32",
-  "headers": "epd_driver.h"
+  "headers": "epd_driver.h",
+  "srcDir": "src",
+  "srcFilter": [
+    "+<*.c>",
+    "+<*.cpp>",
+    "+<*.h>"
+  ]
 }
